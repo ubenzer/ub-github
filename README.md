@@ -1,5 +1,7 @@
 # ub-github
-A small Angular application that shows Github repos for a user
+A small Angular application that shows Github repos for a user.
+
+**[Click here for demo](https://ubenzer.github.io/ub-github/)**
 
 ### Based on
 [Angular seed](https://github.com/angular/angular-seed) for a quick start.
