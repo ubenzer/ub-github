@@ -1,0 +1,13 @@
+<div class="github-repository-list">
+  <div ng-if="!$ctrl.loading && $ctrl.errorCode" ng-bind="$ctrl.errorCode | humanizeError"></div>
+  <div ng-if="$ctrl.loading"
+       class="github-repository-list__loading">Loading...</div>
+  <div ng-if="!($ctrl.errorCode || $ctrl.loading)"
+       class="github-repository-list__data">
+    <github-repository ng-repeat="r in $ctrl.repositories track by r.url"
+                       repository="r"
+                       class="github-repository-list__repository">
+    </github-repository>
+    <div ng-if="$ctrl.repositories.length === 0">User has no repositories yet.</div>
+  </div>
+</div>

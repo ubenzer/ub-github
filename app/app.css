@@ -1,0 +1,62 @@
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.github-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.github-container_input {
+  margin: 10px 0 30px 0;
+  display: block;
+}
+
+.github-username-input {
+  display: flex;
+  align-items: center;
+}
+
+.github-username-input__url-prefix {
+  font-size: 16px;
+  line-height: 22px;
+}
+.github-username-input__form {
+  display: flex;
+  flex-grow: 1;
+  flex-shrink: 1;
+  align-items: center;
+}
+.github-username-input__url-input {
+  font-size: 14px;
+  line-height: 22px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 4px;
+  border: 1px solid #CCC;
+  margin: 0 7px;
+  padding: 0 7px;
+}
+.github-username-input__url-submit {
+  font-size: 14px;
+  line-height: 22px;
+  border: 1px solid #CCC;
+  background: white;
+  border-radius: 4px;
+  padding: 0 7px;
+}
+.github-repository-list__loading {
+  color: #CCC;
+}
+.github-repository-list__repository {
+  margin-bottom: 20px;
+  display: block;
+}
+.github-repository__name {
+  color: #306e8b;
+  text-decoration: none;
+}
+.github-repository__desc {
+  line-height: 22px;
+  font-size: 14px;
+  color: #616060;
+}

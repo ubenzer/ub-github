@@ -1,0 +1,5 @@
+<div class="github-container">
+    <github-username-input on-change="$ctrl.onUsernameSelected(username)"
+                           class="github-container_input"></github-username-input>
+    <github-repository-list ng-if="$ctrl.username" username="$ctrl.username"></github-repository-list>
+</div>

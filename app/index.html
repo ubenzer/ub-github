@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Github</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bower_components/normalize-css/normalize.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+</head>
+<body ng-app="app">
+  <github-container></github-container>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="app.js"></script>
+  <script src="components/github-container/github-container.js"></script>
+  <script src="components/github-repository-list/github-repository-list.js"></script>
+  <script src="components/github-repository/github-repository.js"></script>
+  <script src="components/github-username-input/github-username-input.js"></script>
+  <script src="services/github.js"></script>
+  <script src="filters/humanizeError.js"></script>
+</body>
+</html>
