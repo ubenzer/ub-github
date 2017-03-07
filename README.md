@@ -1,4 +1,6 @@
 # ub-github
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/ubenzer/ub-github.svg)](https://greenkeeper.io/)
 A small Angular application that shows Github repos for a user.
 
 **[Click here for demo](https://ubenzer.github.io/ub-github/)**
